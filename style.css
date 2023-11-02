@@ -1,0 +1,81 @@
+*{
+    margin: 0px auto;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.pan{
+    width: 30%;
+    height: 60px;
+    background-color: #DEB887;
+  
+}
+
+#panArriba{
+    border-radius: 200px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom: 10px solid #B5956C;
+}
+
+#panAbajo{
+    border-radius: 50px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-top: 10px solid #B5956C;
+}
+
+#salchicha{
+    width: 35%;
+    height: 40px;
+    background-color: #A52A2A;
+    border-radius: 30px;
+}
+
+
+/* ------- Extra -------- */
+h1{
+    font-size: 70px;
+    margin: 10px;
+}
+
+h1:hover{
+    font-size: 100px;
+    color:white;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+#marco{
+    margin: 100px;
+    
+}
+
+body{
+ 
+    background:#FF1501;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: rgba(172, 39, 165, 0.959);}
+    to {background-color: rgb(90, 7, 79);}
+}
+
+#button{
+    /* border-radius: 200px; */
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+
+    background-color: black;
+    color: white;
+  
+    margin-left: 30%;
+    margin-right: 30%;
+
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+}

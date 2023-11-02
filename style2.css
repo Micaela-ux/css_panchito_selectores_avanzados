@@ -1,0 +1,94 @@
+
+body{
+    background-color: #3D5A80;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f7ede2;
+}
+
+h1{
+    color: rgb(238,108,77);
+}
+
+h2{
+    color: #E0FBFC;
+}
+
+li{
+    color: white;
+}
+
+#bordeado{
+    border: 3px solid white;
+}
+
+.aloha{
+    background-color: #293241;
+    color: white;
+}
+
+input {
+    border: 2px dashed rgb(238, 108, 77);
+}
+
+div p {
+    font-size: 150%;
+    color: #98C1D9;
+}
+
+input [type= "text"] {
+    background-color: lightblue;
+}
+
+
+/* ------- EXTRA CREDITO ----------- */
+
+a:visited{
+    color: white;
+}
+
+div:nth-of-type(3) > p{
+    background-color: blue;
+}
+
+div:nth-of-type(3) > p:nth-of-type(2) {
+    border: 4px dashed white;
+}
+
+div:nth-of-type(3) > p > span{
+    background-color: white;
+}
+
+input[type= "checkbox"]:checked {
+    margin-left: 60px;
+}
+
+label{
+    text-transform: uppercase;
+}
+
+#ultimo > span{
+    font-size: 300%;
+    background-color: orange;
+}
+
+/* ----- Ejercicio: Pseudo-Selectores */
+
+#button{
+    background-color: orangered;
+    color: white;
+    border: 2px solid black;
+}
+
+#button:active{
+    background-color: yellow;
+}
+
+.input_focus:focus {
+    border: 5px solid green;
+  
+}
+
+#parr_hover:hover {
+    background-color: red;
+    color: white;
+}
